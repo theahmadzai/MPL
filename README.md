@@ -2,10 +2,6 @@
 
 Java Learning
 
-# MPL
-
-Java Learning
-
 # References
 
 ### Installing ADT
