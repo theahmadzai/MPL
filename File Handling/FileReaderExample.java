@@ -21,13 +21,13 @@ public class FileReaderExample {
             line = br.readLine();
         }
 
+        // closing streams
+        fr.close();
+        br.close();
+
         } catch(IOException ex) {
             System.out.println(ex);
 
-        } finally {
-            // closing streams br.close();
-            fr.close();
-            br.close();
         }
     }
 }

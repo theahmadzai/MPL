@@ -25,13 +25,13 @@ public class FileWriterExample {
             // flushing stream
             pw.flush();
 
-        } catch(IOException ex) {
-            System.out.println(ex);
-
-        } finally {
             // closing streams
             pw.close();
             fw.close();
+
+        } catch(IOException ex) {
+            System.out.println(ex);
+
         }
     }
 }
